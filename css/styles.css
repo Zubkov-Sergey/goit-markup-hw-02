@@ -12,6 +12,7 @@
 body {
     font-family: 'Roboto',Raleway, sans-serif;
     background: var(--color-white)
+    color: var(--color-grey)
 }
 .hide {
     border: 0;
@@ -141,12 +142,11 @@ body {
  font-size: 16px;
  line-height: 1.1875;
  letter-spacing: 0.03em;
- background: var(--color-white);
+ background: var(--color-buttons);
  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
  border-radius: 0px 0px 4px 4px;
 }
 .team-foto {
- background: url(4853.jpg);
  border-radius: 0px;
 }
 .team-card-title {
@@ -188,7 +188,6 @@ body {
 }
 .portfolio-item {
  background: #FFFFFF;
- border: 1px solid #EEEEEE;
 }
 .portfolio-item-title {
  font-weight: 700;
@@ -209,6 +208,7 @@ body {
     background-color: var(--color-heroblack);
 }
 .footer-logo {
+ font-family: 'Raleway';
  font-weight: 700;
  font-size: 26px;
  line-height: 1.192;
@@ -220,7 +220,6 @@ body {
  color: var(--color-blue);
 }
 .footer-list {
- font-family: 'Roboto';
  font-style: normal;
  font-size: 14px;
  line-height: 1.714;
